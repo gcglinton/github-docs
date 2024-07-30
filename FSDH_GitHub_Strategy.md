@@ -87,4 +87,4 @@ FSDH initially started on GitHub with the [NRCan datahub-portal](https://github.
 
 ---
 
-This strategy ensures that FSDH leverages the collaborative power of GitHub while maintaining the security and integrity of sensitive components through Azure DevOps, with a strong emphasis on protecting personal information, complying with privacy impact assessments, and integrating SecDevOps practices. The transition to a GitOps model will further enhance the efficiency, consistency, and reliability of our development and deployment processes.
+This strategy ensures that FSDH leverages the collaborative power of GitHub while maintaining the security and integrity of sensitive components through Azure DevOps, with a strong emphasis on protecting personal information, complying with privacy impact assessments, and integrating SecDevOps practices. 
