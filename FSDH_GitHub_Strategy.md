@@ -55,16 +55,6 @@ FSDH initially started on GitHub with the [NRCan datahub-portal](https://github.
 - Implement continuous monitoring of codebases to detect and respond to security threats in real-time.
 - Use automated tools to provide immediate feedback to developers on security issues and code quality.
 
-## Transition to GitOps
-
-### GitOps Model Implementation
-- Begin the transition to a GitOps model, where the entire system's desired state is stored in Git and any changes to the state are managed through Git pull requests.
-- Use GitOps principles to automate the deployment and management of infrastructure and applications, ensuring consistency and reliability.
-
-### Training and Adoption
-- Provide training for team members on GitOps principles and practices.
-- Gradually transition existing workflows to the GitOps model, ensuring smooth adoption and minimal disruption.
-
 ## Security and Compliance
 
 ### Security Measures
