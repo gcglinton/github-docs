@@ -35,11 +35,15 @@ If an incident is detected, the organization admin, in partnership with the repo
 To ensure the integrity and consistency of user identities, all GitHub accounts involved in the operation of FSDH and within the organization must be associated with a Government of Canada (GC) email address, preferably an SSC email address. This requirement ensures that all activities can be traced back to a verified organizational email account, reducing the risk of untrusted users and maintaining a secure chain of trust. While the GitHub identities themselves may not be owned by Shared Services Canada, they must be linked to a recognized GC email address.
 
 **Example:**  
+![image](https://github.com/user-attachments/assets/308169f0-62dd-4088-94d0-5b9127b9dd0a)
+
 When inviting users to GitHub teams, the GC email address must be used.
+![image](https://github.com/user-attachments/assets/a63c61a1-480b-441b-a7c2-88f33e1601f5)
 
 This approach is similar to magic link authentication, where the email link serves as a method of verifying and granting access.
 
 ### 4.2. Setting Up GitHub Account Monitoring
+![image](https://github.com/user-attachments/assets/d765b565-8c25-407f-a4ae-18f37a231b6b)
 
 Webhooks are configured within GitHub to send notifications whenever specific events occur, such as changes in repository membership or branch settings. These webhooks trigger an HTTP POST request that includes detailed information about the event in JSON format.
 
@@ -47,13 +51,16 @@ Webhooks are configured within GitHub to send notifications whenever specific ev
 
 Here are parts of the webhook JSON payload with the event details highlighted:
 
-[**Insert Screenshot Here**]
+![image](https://github.com/user-attachments/assets/8a389c94-71db-4b4f-827f-833e9fda305f)
+
+![image](https://github.com/user-attachments/assets/e801499c-480d-4ebe-8043-08a3f027b434)
 
 The JSON request sent by the webhook contains all relevant details about the event, including the type of change, the user involved, and the repository affected. This data is structured to be easily parsed and processed by the receiving service.
 
 ### 4.4. Teams Notifications
 
-[**Insert Screenshot Here**]
+![image](https://github.com/user-attachments/assets/686a2206-b59c-4b4c-9eec-61fcc571573f)
+
 
 Once the webhook sends the JSON request, it is received by an FSDH notification service that processes the data and sends a formatted notification to a designated Microsoft Teams channel. These notifications provide real-time alerts to GitHub Organization Owners and Repository Administrators, ensuring they are promptly informed of any significant changes.
 
