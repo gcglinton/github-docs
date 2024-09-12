@@ -18,6 +18,7 @@ This guide explains how to add your **Government of Canada (GC) email address** 
 1. In the left sidebar, click **Emails**.
 2. Under **Add email address**, enter your **Government of Canada (GC) email address** (e.g., **yourname@canada.gc.ca** or **yourname@ssc-spc.gc.ca**).
 3. Click **Add** to save this email to your account.
+![image](https://github.com/user-attachments/assets/99cb9389-7d99-4e38-81e7-69524c2bc6fa)
 
 
 ### **Step 4: Verify Your GC Email Address**
@@ -25,25 +26,13 @@ This guide explains how to add your **Government of Canada (GC) email address** 
 2. Open your GC email inbox, find the verification email, and click the link provided to verify your email address.
 3. Once verified, your GC email will be linked to your GitHub account.
 
-### **Step 5: Set Your GC Email as Primary (Optional but Recommended)**
-1. After verifying your GC email, return to the **Emails** section in your GitHub account settings.
-2. Select your GC email address and click the checkbox to set it as your **primary email**.
-   - This ensures all GitHub notifications and account-related communications are sent to your Government of Canada email address.
+![image](https://github.com/user-attachments/assets/13622e41-cc5a-4bc6-85d7-effc9fb0728e)
 
-### **Step 6: Use Your GC Email When Joining Teams**
-1. If you are invited to a GitHub team within our organization, ensure that the invitation is sent to your **GC email address**.
-2. This will ensure that your GitHub account is properly associated with our government organization, maintaining a secure chain of trust.
 
 ## **Why This is Important:**
 
-- Linking your **GC email address** to your GitHub account ensures that all actions within our organization can be traced back to a verified government email, maintaining accountability.
+- Linking your **GC email address** to your GitHub account ensures that all actions within our organization can be traced back to a verified government email/government user, maintaining accountability.
 - This step enhances security by ensuring only trusted users, linked with a known GC email, have access to organizational repositories.
-
-## **Example Screenshots (Optional):**
-Provide screenshots showing how to:
-- Access **Email Settings** in GitHub.
-- Add and verify the email address.
-- Set the GC email address as the primary contact.
 
 ---
 
